@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def output(request):
-    return HttpResponse('Здорова,чепух')
+    return render(request, 'main/output.html')
 
 def about(request):
-    return HttpResponse('Обо мне')
+    return render(request, 'main/about.html')
 
