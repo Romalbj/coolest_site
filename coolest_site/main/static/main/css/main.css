@@ -6,12 +6,12 @@ body {
 
 aside {
     float: left;
-    background: black;
+    background: #32174d;
     width: 20%;
     padding: 2.5%;
     height: 100vh;
     color: black;
-    border-right: 5px solid #00b7eb;
+    border-right: 5px solid #8dd2ff;
 }
 
 aside img {
@@ -31,7 +31,7 @@ aside ul li {
 }
 
 aside ul li:hover, aside ul a:hover {
-    color: #00b7eb;
+    color: #8dd2ff;
     text-decoration: none;
     transform: scale(1.03)
 }
@@ -49,10 +49,11 @@ main .features p {
     font-size: 30px;
     padding-left: 42vh;
     padding-top: 6vh;
+    color: #32174d;
 }
 
 main .features h1 {
     font-size: 55px;
-    color: white;
+    color: #8dd2ff;
     padding: 32px 0;
 }
