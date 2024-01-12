@@ -7,7 +7,7 @@ body {
 aside {
     float: left;
     background: black;
-    width: 30%;
+    width: 20%;
     padding: 2.5%;
     height: 100vh;
     color: black;
@@ -15,7 +15,7 @@ aside {
 }
 
 aside img {
-    width: 350px;
+    width: 200px;
     float: center;
 }
 
@@ -46,7 +46,7 @@ main .features p {
     float: center;
     margin: 25vh auto;
     font-size: 30px;
-    padding-left: 55vh;
+    padding-left: 42vh;
     padding-top: 6vh;
 }
 
