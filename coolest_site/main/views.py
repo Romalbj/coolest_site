@@ -7,3 +7,6 @@ def output(request):
 def about(request):
     return render(request, 'main/about.html')
 
+def works(request):
+    return render(request, 'main/works.html')
+
