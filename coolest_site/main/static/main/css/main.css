@@ -15,8 +15,9 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     float: center;
+    padding-left: 15px;
 }
 
 aside ul {list-style: none}
@@ -51,7 +52,7 @@ main .features p {
 }
 
 main .features h1 {
-    font-size: 60px;
+    font-size: 55px;
     color: white;
-    padding: 20px 0;
+    padding: 32px 0;
 }
