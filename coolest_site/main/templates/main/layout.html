@@ -13,14 +13,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
     <link rel="hortcut icon" href="{% static 'main/img/logo.png' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <aside>
         <a href="{% url 'home' %}" style="text-decoration: none;"><img src="{% static 'main/img/logo.png' %}" alt="logo"></a>
         <ul>
-            <a href="{% url 'home' %}" style="text-decoration: none;"><li><i class="fa-solid fa-house"></i> HOME</li></a>
-            <a href="{% url 'works' %}" style="text-decoration: none;"><li><i class="fa-solid fa-briefcase"></i> WORKS</li></a>
-            <a href="{% url 'about' %}" style="text-decoration: none;"><li><i class="fa-solid fa-circle-info"></i> ABOUT</li></a>
+            <a href="{% url 'home' %}" style="text-decoration: none;"><li><i class="fa-solid fa-house"></i> <strong>HOME</strong></li></a>
+            <a href="{% url 'works' %}" style="text-decoration: none;"><li><i class="fa-solid fa-briefcase"></i> <strong>WORKS</strong></li></a>
+            <a href="{% url 'about' %}" style="text-decoration: none;"><li><i class="fa-solid fa-circle-info"></i> <strong>ABOUT</strong></li></a>
         </ul>
 
     </aside>
@@ -31,5 +34,3 @@
 
 </body>
 </html>
-
-
