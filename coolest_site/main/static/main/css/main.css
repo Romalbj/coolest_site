@@ -43,7 +43,7 @@ aside ul {
     border-top: 1px solid #617a8a;
     border-right: 1px solid #617a8a;
     background: rgba(255, 255, 255, .1);
-    padding-top: 60px;
+    padding-top: 35px;
     padding-bottom: 320px;
     padding-left: 0px;
     width: 300px;
@@ -63,7 +63,12 @@ aside ul li {
 aside ul li:hover, aside ul a:hover {
     color: #b0f3a9;
     text-decoration: none;
-    transform: scale(1.03)
+    transform: scale(1.03);
+    text-shadow:  0 0 3px #53be48,
+    0 0 6px #53be48,
+    0 0 12px #53be48,
+    0 0 24px #53be48,
+    0 0 48px #53be48;
 }
 
 
@@ -72,7 +77,7 @@ main .contents p {
     width: 750px;
     margin: 25vh auto;
     font-size: 30px;
-    color: #53be48;
+    color: #91be8d;
     position: absolute;
     top: 20%; left: 280px;
     backdrop-filter: blur(15px);
@@ -93,7 +98,7 @@ main .contents p {
 
 main .header h1 {
     font-size: 55px;
-    color: #53be48;
+    color: #d3e8d0;
 
     width: 360px;
 
@@ -107,6 +112,12 @@ main .header h1 {
     padding-down: 20px;
     padding-left: 509px;
     padding-right: 660px;
+
+    text-shadow:  0 0 5px #53be48,
+    0 0 10px #53be48,
+    0 0 20px #53be48,
+    0 0 50px #53be48,
+    0 0 100px #53be48;
 }
 
 
