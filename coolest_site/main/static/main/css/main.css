@@ -45,11 +45,12 @@ aside ul {
     background: rgba(255, 255, 255, .1);
     padding-top: 35px;
     padding-bottom: 320px;
-    padding-left: 0px;
+    padding-left: 85px;
     width: 300px;
     margin: 0;
     text-align: center;
     align-item: center;
+    text-align: left;
 }
 
 aside ul li {
@@ -61,7 +62,7 @@ aside ul li {
 }
 
 aside ul li:hover, aside ul a:hover {
-    color: #b0f3a9;
+    color: #d3e8d0;
     text-decoration: none;
     transform: scale(1.03);
     text-shadow:  0 0 3px #53be48,
