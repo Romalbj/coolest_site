@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    filter: blur (10px);
 }
 
 
@@ -15,21 +16,20 @@ body {
 
 aside {
     float: left;
-    background: #32174d;
     width: 20%;
     padding: 2.5%;
     height: 100vh;
-    color: black;
     border-right: 5px solid #8dd2ff;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     background-position-y: 31px;
-    backdrop-filter: blur (10px);
-    background: transparent;
+    filter: blur (10px);
 
 }
+
+
 
 aside img {
     width: 150px;
@@ -37,7 +37,7 @@ aside img {
     padding-left: 15px;
 }
 
-aside ul {list-style: none}
+aside ul {list-style: none; }
 
 aside ul li {
     color: #7b68ee;
@@ -53,25 +53,48 @@ aside ul li:hover, aside ul a:hover {
     transform: scale(1.03)
 }
 
-main .features {
-    float: center;
-    color: black;
-    text-align: center;
-}
 
-main .features p {
-    max-width: 1100px;
-    float: center;
+
+main .contents p {
+    width: 750px;
     margin: 25vh auto;
     font-size: 30px;
-    padding-left: 42vh;
-    padding-top: 6vh;
-    color: #8dd2ff;
+    color: white;
+    position: absolute;
+    top: 20%; left: 280px;
+    backdrop-filter: blur(15px);
+    margin-left: 15%;
+
+    box-shadow: 30px 20px 50px #200d34;
+    border-radius: 15px;
+    border-top: 1px solid #617a8a;
+    border-left: 1px solid #617a8a;
+
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+
+    text-align: center;
+
+
 }
 
-main .features h1 {
+main .header h1 {
     font-size: 55px;
     color: #8dd2ff;
-    padding: 32px 0;
+
+    width: 360px;
+
+    text-align: center;
+    align-item: center;
+
+    margin-left: 294px;
+    margin-right: 6px;
+
+    padding-top: 45px;
+    padding-down: 20px;
+    padding-left: 509px;
+    padding-right: 660px;
 }
+
+
 
