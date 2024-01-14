@@ -4,11 +4,11 @@ body {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
-
-
-
-
 
 
 
@@ -21,6 +21,14 @@ aside {
     height: 100vh;
     color: black;
     border-right: 5px solid #8dd2ff;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-position-y: 31px;
+    backdrop-filter: blur (10px);
+    background: transparent;
+
 }
 
 aside img {
@@ -58,7 +66,7 @@ main .features p {
     font-size: 30px;
     padding-left: 42vh;
     padding-top: 6vh;
-    color: #32174d;
+    color: #8dd2ff;
 }
 
 main .features h1 {
@@ -66,3 +74,4 @@ main .features h1 {
     color: #8dd2ff;
     padding: 32px 0;
 }
+
