@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     filter: blur (10px);
 }
 
@@ -17,10 +18,9 @@ aside {
     width: 20%;
     padding: 2.5%;
     height: 100vh;
+    position: fixed;
     border-right: 5px solid ##24b651;
-
     margin-left: -23px;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -73,11 +73,9 @@ aside ul li:hover, aside ul a:hover {
     0 0 48px #53be48;
 }
 
-
-
-main .contents p {
+main .contents .smth {
     width: 750px;
-    margin: 25vh auto;
+    margin: 5vh auto;
     font-size: 30px;
     color: #91be8d;
     position: absolute;
@@ -93,21 +91,85 @@ main .contents p {
     padding: 30px;
     padding-left: 100px;
     text-align: left;
-
 }
+
+
+main .contents .block1 {
+    width: 850px;
+    margin: 5vh auto;
+    font-size: 30px;
+    color: #d3e8d0;
+    position: absolute;
+    top: 20%; left: 280px;
+    backdrop-filter: blur(15px);
+    margin-left: 12.3%;
+
+    box-shadow: -30px 20px 50px #040d14;
+    border-radius: 15px;
+    border-top: 1px solid #617a8a;
+    border-right: 1px solid #617a8a;
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+main .contents .block2 {
+    width: 850px;
+    margin: 80vh auto;
+    font-size: 30px;
+    color: #d3e8d0;
+    position: absolute;
+    top: 20%; left: 280px;
+    backdrop-filter: blur(15px);
+    margin-left: 12.3%;
+
+    box-shadow: -30px 20px 50px #040d14;
+    border-radius: 15px;
+    border-top: 1px solid #617a8a;
+    border-right: 1px solid #617a8a;
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+main .contents .block3 {
+    width: 850px;
+    margin: 142vh auto;
+    font-size: 30px;
+    color: #d3e8d0;
+    position: absolute;
+    top: 20%; left: 280px;
+    backdrop-filter: blur(15px);
+    margin-left: 12.3%;
+
+    box-shadow: -30px 20px 50px #040d14;
+    border-radius: 15px;
+    border-top: 1px solid #617a8a;
+    border-right: 1px solid #617a8a;
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+main .contents .block1 .block_header, main .contents .block2 .block_header {
+    font-size: 55px;
+    padding-bottom: 50px;
+    color: #53be48;
+}
+
+
 
 main .header h1 {
     font-size: 55px;
     color: #d3e8d0;
-
     width: 360px;
-
     text-align: center;
     align-item: center;
-
     margin-left: 294px;
     margin-right: 6px;
-
     padding-top: 45px;
     padding-down: 20px;
     padding-left: 490px;
