@@ -95,63 +95,15 @@ main .contents .smth {
 
 
 main .contents .block1 {
-    width: 850px;
     margin: 5vh auto;
-    font-size: 30px;
-    color: #d3e8d0;
-    position: absolute;
-    top: 20%; left: 280px;
-    backdrop-filter: blur(15px);
-    margin-left: 12.3%;
-
-    box-shadow: -30px 20px 50px #040d14;
-    border-radius: 15px;
-    border-top: 1px solid #617a8a;
-    border-right: 1px solid #617a8a;
-    background: rgba(255, 255, 255, .1);
-    padding: 30px;
-    padding-left: 100px;
-    text-align: left;
 }
 
 main .contents .block2 {
-    width: 850px;
     margin: 80vh auto;
-    font-size: 30px;
-    color: #d3e8d0;
-    position: absolute;
-    top: 20%; left: 280px;
-    backdrop-filter: blur(15px);
-    margin-left: 12.3%;
-
-    box-shadow: -30px 20px 50px #040d14;
-    border-radius: 15px;
-    border-top: 1px solid #617a8a;
-    border-right: 1px solid #617a8a;
-    background: rgba(255, 255, 255, .1);
-    padding: 30px;
-    padding-left: 100px;
-    text-align: left;
 }
 
 main .contents .block3 {
-    width: 850px;
     margin: 142vh auto;
-    font-size: 30px;
-    color: #d3e8d0;
-    position: absolute;
-    top: 20%; left: 280px;
-    backdrop-filter: blur(15px);
-    margin-left: 12.3%;
-
-    box-shadow: -30px 20px 50px #040d14;
-    border-radius: 15px;
-    border-top: 1px solid #617a8a;
-    border-right: 1px solid #617a8a;
-    background: rgba(255, 255, 255, .1);
-    padding: 30px;
-    padding-left: 100px;
-    text-align: left;
 }
 
 main .contents .block1 .block_header, main .contents .block2 .block_header {
