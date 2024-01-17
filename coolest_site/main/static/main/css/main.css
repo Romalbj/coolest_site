@@ -1,8 +1,15 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}
+
+
+body {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,65 +19,84 @@ body {
 }
 
 
-
-aside {
-    float: left;
-    width: 20%;
-    padding: 2.5%;
-    height: 100vh;
+.sidebar {
     position: fixed;
-    border-right: 5px solid ##24b651;
-    margin-left: -23px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    background-position-y: 31px;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100%;
+    background: purple;
+    padding: 6px 14px;
 }
 
-
-aside img {
-    width: 150px;
-    float: center;
-    padding-left: 15px;
+.sidebar .logo-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
 }
 
-
-aside ul {
-    list-style: none;
-    backdrop-filter: blur(15px);
-    box-shadow: -30px 20px 50px #040d14;
-    border-radius: 15px;
-    border-top: 1px solid #617a8a;
-    border-right: 1px solid #617a8a;
-    background: rgba(255, 255, 255, .1);
-    padding-top: 35px;
-    padding-bottom: 320px;
-    padding-left: 85px;
-    width: 300px;
-    margin: 0;
-    text-align: center;
-    align-item: center;
-    text-align: left;
-}
-
-aside ul li {
-    color: #53be48;
-    display: block;
-    margin-top: 50px;
+.sidebar .logo-menu .logo {
+    height: 20px;
     font-size: 25px;
-    transition: transform .3s ease;
+    color: white;
+    pointer-events: none;
 }
 
-aside ul li:hover, aside ul a:hover {
-    color: #d3e8d0;
+.sidebar .logo-menu .toggle-btn {
+    position: absolute;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+
+
+.sidebar .list {
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.list .list-item {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    line-height: 50px;
+}
+
+
+.list .list-item a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
     text-decoration: none;
-    transform: scale(1.03);
-    text-shadow:
-    0 0 3px #53be48,
-    0 0 6px #53be48,
-    0 0 12px #53be48,
-    0 0 24px #53be48,
-    0 0 48px #53be48;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+
+
+.list .list-item.active a,
+ .list .list-item a:hover   {
+    background: rgba(255, 255, 255, .2);
+}
+
+
+.list .list-item a i {
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+
 }
 
 main .contents .smth {
