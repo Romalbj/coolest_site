@@ -45,7 +45,7 @@
 
 </head>
 <body>
-<a href="{% url 'home' %}" style="text-decoration: none;"><img src="{% static 'main/img/logo2.png' %}" class="logo" alt="logo"></a>
+<!--<a href="{% url 'home' %}" style="text-decoration: none;"><img src="{% static 'main/img/logo2.png' %}" class="logo" alt="logo"></a>-->
 
     <nav class="sidebar">
         <div class="logo-menu">
@@ -57,19 +57,19 @@
                  <li class="list-item active">
                      <a href="{% url 'home' %}">
                          <i class="fa-solid fa-house"></i>
-                         <span class="link-name">Home</span>
+                         <span class="link-name" style="--i:1">Home</span>
                     </a>
                  </li>
                <li class="list-item">
                      <a href="{% url 'works' %}">
                          <i class="fa-solid fa-briefcase"></i>
-                         <span class="link-name">Works</span>
+                         <span class="link-name" style="--i:2">Works</span>
                     </a>
                  </li>
                <li class="list-item">
                      <a href="{% url 'about' %}">
                          <i class="fa-solid fa-circle-info"></i>
-                         <span class="link-name">About</span>
+                         <span class="link-name" style="--i:3">About</span>
                     </a>
                  </li>
             </ul>

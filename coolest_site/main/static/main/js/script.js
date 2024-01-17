@@ -1,6 +1,7 @@
-const sidebar = document.getElementById('.sidebar');
-const toggleBtn = document.getElementById('.toggle-btn');
+const sidebar = document.querySelector('.sidebar');
+const toggleBtn = document.querySelector('.toggle-btn');
+console.log('toggleBtn', toggleBtn);
 
 toggleBtn.addEventListener('click', () => {
-    sidebar.classlist.toggle('active');
+    sidebar.classList.toggle('active');
 });
