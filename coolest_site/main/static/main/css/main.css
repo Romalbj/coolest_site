@@ -190,14 +190,15 @@ main .header h1:before {
     top: 0;
     left: 0;
     transform: rotateX(180deg);
-    line-height: 0.975em;
+    line-height: 0.99em;
     transform-origin: bottom;
     font-weight: bold;
     background: linear-gradient(0deg, #fff 0, transparent 60%);
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: none;
-    opacity: 0.18;
+    opacity: 0.1;
+    filter: blur(1px);
 }
 
 
