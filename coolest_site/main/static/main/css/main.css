@@ -43,6 +43,15 @@ body {
     align-items: center;
     width: 100%;
     height: 70px;
+    color: #d3e8d0;
+    text-decoration: none;
+    transform: scale(1.03);
+    text-shadow:
+    0 0 3px #53be48,
+    0 0 6px #53be48,
+    0 0 12px #53be48,
+    0 0 24px #53be48,
+    0 0 48px #53be48;
 }
 
 .sidebar .logo-menu .logo {
@@ -97,18 +106,35 @@ body {
 .list .list-item a {
     display: flex;
     align-items: center;
-    font-size: 18px;
-    color: white;
+    font-size: 20px;
+    color: #53be48;
     text-decoration: none;
     border-radius: 10px;
     white-space: nowrap;
-    transition: .3s;
+    transition: transform .3s ease;
 }
 
 
-.list .list-item.active a,
  .list .list-item a:hover   {
-    background: rgba(255, 255, 255, .2);
+    color: #d3e8d0;
+    text-decoration: none;
+    transform: scale(1.03);
+    text-shadow:
+    0 0 3px #53be48,
+    0 0 6px #53be48,
+    0 0 12px #53be48,
+    0 0 24px #53be48,
+    0 0 48px #53be48;
+}
+
+.list .list-item .active {
+    color: #d3e8d0;
+    text-shadow:
+    0 0 3px #53be48,
+    0 0 6px #53be48,
+    0 0 12px #53be48,
+    0 0 24px #53be48,
+    0 0 48px #53be48;
 }
 
 
