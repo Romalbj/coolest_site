@@ -26,9 +26,9 @@ body {
     width: 80px;
     height: 100%;
     background: transparent;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(13px);
     border-right: 2px solid rgba(255, 255, 255, .2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 2px 30px 20px #040d14;
     padding: 6px 14px;
     transition: .5s;
 }
@@ -116,7 +116,7 @@ body {
 
 
  .list .list-item a:hover   {
-    color: #d3e8d0;
+    color: #ffffff;
     text-decoration: none;
     transform: scale(1.03);
     text-shadow:
@@ -128,13 +128,14 @@ body {
 }
 
 .list .list-item .active {
-    color: #e7e0e8;
+    color: #ffffff;
     text-shadow:
-    0 0 3px #d92ce4,
-    0 0 6px #d92ce4,
-    0 0 12px #d92ce4,
-    0 0 24px #d92ce4,
-    0 0 48px #d92ce4;
+    0 0 3px #E1004C,
+    0 0 6px #E1004C,
+    0 0 12px #E1004C,
+    0 0 24px #E1004C,
+    0 0 48px #E1004C,
+    0 0 48px #E1004C;
 }
 
 
@@ -168,7 +169,7 @@ main .contents .smth {
     color: #91be8d;
     position: absolute;
     top: 20%; left: 280px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(7px);
     margin-left: 15%;
 
     box-shadow: -30px 20px 50px #040d14;
@@ -204,7 +205,7 @@ main .contents .block1 .block_header, main .contents .block2 .block_header {
 
 main .header h1 {
     font-size: 55px;
-    color: #d3e8d0;
+    color: #ffffff;
     width: 360px;
     text-align: center;
     align-item: center;
