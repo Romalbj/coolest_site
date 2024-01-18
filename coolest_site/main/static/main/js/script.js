@@ -1,6 +1,5 @@
 const sidebar = document.querySelector('.sidebar');
 const toggleBtn = document.querySelector('.toggle-btn');
-console.log('toggleBtn', toggleBtn);
 
 toggleBtn.addEventListener('click', () => {
     sidebar.classList.toggle('active');
@@ -8,7 +7,6 @@ toggleBtn.addEventListener('click', () => {
 
 
 const activePage = window.location.pathname;
-console.log(activePage)
 const navLinks = document.querySelectorAll('a').
 forEach(link => {
     if(link.href.includes(`${activePage}`))

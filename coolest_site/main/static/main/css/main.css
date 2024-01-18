@@ -175,26 +175,6 @@ main .contents .smth {
     text-align: left;
 }
 
-
-main .contents .block1 {
-    margin: 5vh auto;
-}
-
-main .contents .block2 {
-    margin: 80vh auto;
-}
-
-main .contents .block3 {
-    margin: 142vh auto;
-}
-
-main .contents .block1 .block_header, main .contents .block2 .block_header {
-    font-size: 55px;
-    padding-bottom: 50px;
-    color: #53be48;
-}
-
-
 main .header {
     margin: 0;
     padding: 0;
@@ -218,7 +198,6 @@ main .header h1:before {
     color: transparent;
     text-shadow: none;
     opacity: 0.18;
-
 }
 
 
@@ -236,6 +215,27 @@ main .header h1 {
     0 0 50px #53be48,
     0 0 100px #53be48;
 }
+
+main .contents .block1 {
+    margin: 5vh auto;
+}
+
+main .contents .block2 {
+    margin: 80vh auto;
+}
+
+main .contents .block3 {
+    margin: 142vh auto;
+}
+
+main .contents .block1 .block_header, main .contents .block2 .block_header {
+    font-size: 55px;
+    padding-bottom: 50px;
+    color: #53be48;
+}
+
+
+
 
 
 
