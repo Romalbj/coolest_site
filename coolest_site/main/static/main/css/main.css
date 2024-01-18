@@ -128,13 +128,13 @@ body {
 }
 
 .list .list-item .active {
-    color: #d3e8d0;
+    color: #e7e0e8;
     text-shadow:
-    0 0 3px #53be48,
-    0 0 6px #53be48,
-    0 0 12px #53be48,
-    0 0 24px #53be48,
-    0 0 48px #53be48;
+    0 0 3px #d92ce4,
+    0 0 6px #d92ce4,
+    0 0 12px #d92ce4,
+    0 0 24px #d92ce4,
+    0 0 48px #d92ce4;
 }
 
 
