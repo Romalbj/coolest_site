@@ -202,20 +202,22 @@ main .contents .block1 .block_header, main .contents .block2 .block_header {
 }
 
 
+main .header {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+
 
 main .header h1 {
+    position: relative;
     font-size: 55px;
     color: #ffffff;
-    width: 360px;
-    text-align: center;
-    align-item: center;
-    margin-left: 294px;
-    margin-right: 6px;
-    padding-top: 45px;
-    padding-down: 20px;
-    padding-left: 490px;
-    padding-right: 660px;
-
+    margin-top: 8px;
+    height: 75px;
+    line-height: 75px;
     text-shadow:
     0 0 5px #53be48,
     0 0 10px #53be48,
@@ -224,5 +226,14 @@ main .header h1 {
     0 0 100px #53be48;
 }
 
+main .header h1: before {
+    content: attr(REFL-TEXT);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateX(180deg);
+    line-height: 52px;
+    transform-origin: bottom;
+}
 
 
