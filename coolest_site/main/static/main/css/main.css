@@ -220,11 +220,11 @@ main .header h1:before {
     line-height: 0.975em;
     transform-origin: bottom;
     font-weight: bold;
-    background: linear-gradient(to top, #fff, transparent);
+    background: linear-gradient(0deg, #fff 0, transparent 60%);
     -webkit-background-clip: text;
     color: transparent;
-    opacity: 0.75;
-
+    text-shadow: none;
+    opacity: 0.18;
 
 }
 
