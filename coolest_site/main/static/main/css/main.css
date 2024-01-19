@@ -222,15 +222,15 @@ main .contents .block1 {
 }
 
 main .contents .block2 {
-    margin: 80vh auto;
+    margin: 78vh auto;
 }
 
 main .contents .block3 {
-    margin: 142vh auto;
+    margin: 140vh auto;
 }
 
 main .contents .block1 .block_header, main .contents .block2 .block_header {
-    font-size: 55px;
+    font-size: 45px;
     padding-bottom: 50px;
     color: #53be48;
 }
