@@ -10,7 +10,7 @@
 
 
 body {
-    background-image: url(../img/background.png);
+    background-image: url(../img/background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -333,8 +333,8 @@ main .container .card:hover .content p {
 
 main .container .card .img1  {
     width: 180px;
-    height: 150px;
-    opacity: 0.2;
+    height: 145px;
+    opacity: 0.1;
     transition: 0.5s;
 }
 
