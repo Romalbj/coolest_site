@@ -270,7 +270,6 @@ main .container .card .content {
     color: #d3e8d0;
     font-size: 18px;
     padding: 0 50px;
-
 }
 
 
@@ -329,4 +328,17 @@ main .container .card .content p {
 main .container .card:hover .content p {
     transform: translateY(0px);
     opacity: 1;
+}
+
+
+main .container .card .img1  {
+    width: 180px;
+    height: 150px;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+main .container .card:hover .img1 {
+    transform: scale(0);
+    opacity: 0;
 }
