@@ -93,7 +93,7 @@ body {
 
 
 .sidebar .list {
-    margin-top: 40px;
+    margin-top: 15px;
     padding-left: 0;
 }
 
@@ -404,18 +404,16 @@ main .container .card:hover .img1 {
 
 
 
-
 .sidebar.active .logo-menu .hamburger-lines .line1 {
   transform: rotate(45deg);
   width: 24px;
-      color: #ffffff;
-    box-shadow:
-    0 0 3px #E1004C,
-    0 0 6px #E1004C,
-    0 0 12px #E1004C,
-    0 0 24px #E1004C,
-    0 0 48px #E1004C,
-    0 0 48px #E1004C;
+  color: #ffffff;
+  box-shadow:
+  0 0 3px #53be48,
+  0 0 6px #53be48,
+  0 0 12px #53be48,
+  0 0 24px #53be48,
+  0 0 48px #53be48,
 }
 
 .sidebar.active .logo-menu .hamburger-lines .line2 {
@@ -425,12 +423,11 @@ main .container .card:hover .img1 {
 .sidebar.active .logo-menu .hamburger-lines .line3 {
   transform: rotate(-45deg);
   width: 24px;
-      color: #ffffff;
-    box-shadow:
-    0 0 3px #E1004C,
-    0 0 6px #E1004C,
-    0 0 12px #E1004C,
-    0 0 24px #E1004C,
-    0 0 48px #E1004C,
-    0 0 48px #E1004C;
+  color: #ffffff;
+  box-shadow:
+  0 0 3px #53be48,
+  0 0 6px #53be48,
+  0 0 12px #53be48,
+  0 0 24px #53be48,
+  0 0 48px #53be48,
 }
