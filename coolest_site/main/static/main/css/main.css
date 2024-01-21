@@ -252,7 +252,7 @@ main .container .card {
     position: relative;
     width: 350px;
     height: 500px;
-    margin: 30px;
+    margin: 20px;
     box-shadow: -30px 20px 50px #040d14;
     background: transparent;
     border-radius: 15px;
@@ -260,8 +260,11 @@ main .container .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #617a8a;
-    border-right: 1px solid #617a8a;
+    border-top: 1.5px solid rgba(255, 255, 255, .2);
+    border-right: 1.5px solid rgba(255, 255, 255, .2);
+    border-bottom: transparent;
+    border-left: transparent;
+
     backdrop-filter: blur(25px);
 }
 
@@ -298,7 +301,16 @@ main .container .card .content h3 {
     top: 50px;
     right: 50px;
     padding-bottom: 0;
-    color: #53be48;
+    color: #ffffff;
+    text-shadow:
+    0 0 3px #E1004C,
+    0 0 6px #E1004C,
+    0 0 12px #E1004C,
+    0 0 24px #E1004C,
+    0 0 36px #E1004C,
+    0 0 48px #E1004C,
+    0 0 48px #E1004C;
+
     transform: translateY(150px);
     opacity: 0;
     transition: 0.5s;
