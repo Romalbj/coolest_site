@@ -10,7 +10,7 @@
 
 
 body {
-    background-image: url(../img/background3.jpg);
+    background-image: url(../img/background3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -38,7 +38,7 @@ main {
     backdrop-filter: blur(13px);
     border-right: 1.5px solid rgba(255, 255, 255, .2);
     border-top: 1.5px solid rgba(255, 255, 255, .2);
-    box-shadow: 2px 30px 20px #040d14;
+    box-shadow: 2px 20px 20px 5px rgba(0, 0, 0, 0.45);
     padding: 6px 14px;
     transition: .5s;
 }
@@ -180,11 +180,11 @@ main .contents .smth {
     backdrop-filter: blur(7px);
     margin-left: 15%;
 
-    box-shadow: -30px 20px 50px #040d14;
+    box-shadow: -15px 20px 20px 5px rgba(0, 0, 0, 0.45);
     border-radius: 15px;
     border-top: 1px solid #617a8a;
     border-right: 1px solid #617a8a;
-    background: rgba(255, 255, 255, .1);
+    background: rgba(255, 255, 255, .1.1);
     padding: 30px;
     padding-left: 100px;
     text-align: left;
@@ -277,7 +277,7 @@ main .container .card {
     width: 350px;
     height: 530px;
     margin: 20px;
-    box-shadow: -30px 20px 50px #040d14;
+    box-shadow: -15px 20px 20px 5px rgba(0, 0, 0, 0.45);
     background: transparent;
     border-radius: 15px;
     overflow: hidden;
