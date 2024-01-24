@@ -506,15 +506,21 @@ main .container .card:hover .img1 {
     transform: scale(1.1);
 }
 
-.footerContainer .icons .icon2 a,
-.footerContainer .icons .icon4 a {
+
+.footerContainer .icons i {
     transition: 0.3s;
 }
 
-.footerContainer .icons .icon2:hover a,
-.footerContainer .icons .icon4:hover a {
-    transform: scale(1.1);
+.footerContainer .icons .icon:hover i {
+    text-shadow:
+    0 0 3px #E1004C,
+    0 0 6px #E1004C,
+    0 0 12px #E1004C,
+    0 0 24px #E1004C,
+    0 0 36px #E1004C,
+    0 0 48px #E1004C;
 }
+
 
 
 .footerContainer .foot-bottom {
