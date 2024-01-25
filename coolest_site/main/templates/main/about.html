@@ -1,14 +1,78 @@
 {% extends 'main/layout.html' %}
+{% load static %}
 
 {% block title %}About{% endblock %}
 
 
 {% block content %}
-    <div class="header">
-        <h1 REFL-TEXT="ABOUT"><strong>ABOUT</strong></h1>
-    </div>
-    <div class="contents">
-        <p class="smth">Ну, я баскетболист, велосипедист, красавчик, филантроп</p>
+
+    <div class="contents-about">
+
+        <div class="header">
+            <h1 REFL-TEXT="ABOUT"><strong>ABOUT</strong></h1>
+        </div>
+
+        <div class="frame frame1">
+            <div class="frame-content">
+                <div class="text">
+                    <h2>Hello, world</h2>
+                    <p>I'm a 22 year old digital artist and YouTuber from
+                        the Netherlands. On my channel I produce content about
+                        my Photoshop edits and artwork. I love involving my
+                        audience in my craft, and I always try to come up with
+                        new and entertaining ideas!</p>
+                </div>
+
+                <div class="image">
+                    <img src="{% static 'main/img/logo2.png' %}" alt="df" class="img1-about">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="frame frame2">
+            <div class="frame-content">
+                <div class="text">
+                    <h2>Not a teacher</h2>
+                    <p>My goal as a creator is not to teach. Many visual
+                        artists on the internet make educational content
+                        about their profession. I however strictly do this
+                        to entertain and inspire. I enjoy making videos the
+                        way I make them, and I don't intend to change that
+                        any time soon! Besides, there's already so much
+                        educational content out there. An opportunity to learn
+                        is always there for those looking for it.</p>
+                </div>
+
+                <div class="image">
+                    <img src="{% static 'main/img/logo2.png' %}" alt="df" class="img2-about">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="frame frame3">
+            <div class="frame-content">
+                <div class="text">
+                    <h2>YouTube channel</h2>
+                    <p>n my YouTube videos I often do things like
+                        challenges, turning my viewers' drawings into
+                        realistic versions, editing their photos, or
+                        remaking posters from existing movies or shows.
+                        Sometimes I turn myself into an existing fictional
+                        character, often requested by viewers. Most of my
+                        work is inspired by pop-culture and media. I love
+                        movies and this is a big hobby of mine.</p>
+                </div>
+
+                <div class="image">
+                    <img src="{% static 'main/img/logo2.png' %}" alt="df" class="img2-about">
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
 
 {% endblock %}
