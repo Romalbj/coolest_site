@@ -29,7 +29,7 @@ main {
 
 .sidebar {
     position: fixed;
-    border-radius: 15px;
+    border-radius: 10px 25px 10px 10px;
     top: 2%;
     left: 0;
     width: 83px;
@@ -261,7 +261,7 @@ main .contents .block1 .block_header, main .contents .block2 .block_header {
 
 
 main .container {
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-left: 20vh;
     margin-bottom: 8vh;
     padding: 0;
@@ -279,7 +279,7 @@ main .container .card {
     margin: 20px;
     box-shadow: -15px 20px 20px 5px rgba(0, 0, 0, 0.45);
     background: transparent;
-    border-radius: 15px;
+    border-radius: 10px 55px 10px 55px;
     overflow: hidden;
     display: flex;
     justify-content: center;
