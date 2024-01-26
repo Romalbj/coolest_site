@@ -621,6 +621,27 @@ main .contents-about .frame .frame-content .image {
     justify-content: center;
     align-items: center;
     width: 30%;
+
+}
+
+
+main .contents-about .frame1 .frame-content .image {
+    background-image: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+main .contents-about .frame2 .frame-content .image {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+main .contents-about .frame3 .frame-content .image {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 
