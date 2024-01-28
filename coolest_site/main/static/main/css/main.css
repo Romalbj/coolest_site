@@ -524,6 +524,23 @@ main .container .card:hover .img1 {
 }
 
 
+.footerContainer .icons .icon3 img {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.footerContainer .icons .icon3:hover img {
+    width: 30vh;
+    height: 30vh;
+    opacity: 1;
+    transform: translateX(-200px);
+    transform: translateY(-300px);
+
+}
+
 
 .footerContainer .foot-bottom {
     color: #fff;
