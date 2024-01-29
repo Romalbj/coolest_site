@@ -534,7 +534,7 @@ main .container .card:hover .img1 {
 }
 
 
-.footerContainer .icons .icon3 img {
+.footerContainer .icons .icon3 img, .footerContainer .icons .icon4 img {
     width: 8vh;
     height: 8.57vh;
     opacity: 0;
@@ -547,6 +547,13 @@ main .container .card:hover .img1 {
     height: 30vh;
     opacity: 1;
     transform: translateX(-100px);
+}
+
+.footerContainer .icons .icon4:hover img {
+    width: 28vh;
+    height: 30vh;
+    opacity: 1;
+    transform: translateX(100px);
 }
 
 
