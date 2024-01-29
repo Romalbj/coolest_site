@@ -484,11 +484,14 @@ main .container .card:hover .img1 {
 .footerContainer .icons .icon3, .footerContainer .icons .icon4 {
     margin: 0;
     padding: 0;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: flex-end;
 }
 
+.footerContainer .icons .icon1, .footerContainer .icons .icon2 {
+    height: 80px;
+}
 
 
 .footerContainer .icons .icon1, .footerContainer .icons .icon3 {
@@ -541,6 +544,13 @@ main .container .card:hover .img1 {
     transition: .5s;
 }
 
+.footerContainer .icons .icon1 img  {
+    width: 6vh;
+    height: 6.47vh;
+    opacity: 0;
+    transition: .5s;
+}
+
 
 .footerContainer .icons .icon3:hover img {
     width: 28vh;
@@ -548,6 +558,14 @@ main .container .card:hover .img1 {
     opacity: 1;
     transform: translateX(-100px);
 }
+.footerContainer .icons .icon1:hover img {
+    width: 23vh;
+    height: 25vh;
+    opacity: 1;
+    transform: translate(-100px, -60px);
+
+}
+
 
 .footerContainer .icons .icon4:hover img {
     width: 28vh;
@@ -560,7 +578,7 @@ main .container .card:hover .img1 {
 .footerContainer .foot-bottom {
     color: #fff;
     font-size: 13px;
-    margin-top: 5vh;
+    margin-top: 1vh;
     display: flex;
     align-items: flex-end;
     justify-content: left;
@@ -632,7 +650,7 @@ main .contents-about .frame .frame-content .text {
     width: 70%;
     background: transparent;
     text-align: left;
-    padding-top: 70px;
+    padding-top: 40px;
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
@@ -643,6 +661,11 @@ main .contents-about .frame .frame-content .text {
 main .contents-about .frame .frame-content .text h2 {
     font-size: 40px;
     padding-bottom: 30px;
+}
+
+
+main .contents-about .frame .frame-content .text p {
+    font-size: 20px;
 }
 
 
