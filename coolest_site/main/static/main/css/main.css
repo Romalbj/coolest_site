@@ -551,6 +551,19 @@ main .container .card:hover .img1 {
     transition: .5s;
 }
 
+.footerContainer .icons .icon2 img  {
+    width: 6vh;
+    height: 6.47vh;
+    opacity: 0;
+    transition: .4s;
+}
+
+.footerContainer .icons .icon2:hover img {
+    width: 35vh;
+    height: 38vh;
+    opacity: 1;
+    transform: translate(100px, -100px);
+}
 
 .footerContainer .icons .icon3:hover img {
     width: 28vh;
@@ -558,6 +571,7 @@ main .container .card:hover .img1 {
     opacity: 1;
     transform: translateX(-100px);
 }
+
 .footerContainer .icons .icon1:hover img {
     width: 23vh;
     height: 25vh;
@@ -565,7 +579,6 @@ main .container .card:hover .img1 {
     transform: translate(-100px, -60px);
 
 }
-
 
 .footerContainer .icons .icon4:hover img {
     width: 28vh;
