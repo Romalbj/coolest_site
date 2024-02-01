@@ -263,9 +263,9 @@ main .contents .block1 .block_header, main .contents .block2 .block_header {
 
 
 main .container {
-    margin-top: 10vh;
+    margin-top: 2vh;
     margin-left: 20vh;
-    margin-bottom: 8vh;
+  /*  margin-bottom: 8vh;  */
     padding: 0;
     position: relative;
     display: flex;
@@ -291,6 +291,7 @@ main .container .card {
     border-bottom: transparent;
     border-left: transparent;
     backdrop-filter: blur(25px);
+    transition: 0.5s;
 }
 
 
@@ -341,6 +342,10 @@ main .container .card .content h3 {
     opacity: 0;
     transition: 0.5s;
 }
+main .container .card:hover {
+    box-shadow: inset 0 0 70px  #61ba57, -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 42px #61ba57;
+    border: 1.5px solid #9ed498;
+}
 
 main .container .card:hover .content h3 {
     transform: translateY(0px);
@@ -353,6 +358,7 @@ main .container .card .content p {
     font-weight: 500;
     width: 277px;
     position: absolute;
+    color: rgba(255, 255, 255, 0.85);
     top: 100px;
     left: 35px;
     right: 50px;
@@ -484,13 +490,13 @@ main .container .card:hover .img1 {
 .footerContainer .icons .icon3, .footerContainer .icons .icon4 {
     margin: 0;
     padding: 0;
-    height: 80px;
+    height: 45px;
     display: flex;
     align-items: flex-end;
 }
 
 .footerContainer .icons .icon1, .footerContainer .icons .icon2 {
-    height: 80px;
+    height: 45px;
 }
 
 
@@ -562,7 +568,7 @@ main .container .card:hover .img1 {
     width: 35vh;
     height: 38vh;
     opacity: 1;
-    transform: translate(100px, -100px);
+    transform: translate(100px, -50px);
 }
 
 .footerContainer .icons .icon3:hover img {
@@ -576,7 +582,7 @@ main .container .card:hover .img1 {
     width: 23vh;
     height: 25vh;
     opacity: 1;
-    transform: translate(-100px, -60px);
+    transform: translate(-100px, -30px);
 
 }
 
@@ -591,7 +597,7 @@ main .container .card:hover .img1 {
 .footerContainer .foot-bottom {
     color: #fff;
     font-size: 13px;
-    margin-top: 1vh;
+    margin-top: 9vh;
     display: flex;
     align-items: flex-end;
     justify-content: left;
@@ -604,6 +610,11 @@ main .container .card:hover .img1 {
     align-items: center;
     justify-content: center;
     margin: 0;
+}
+
+.footerContainer .foot-bottom p a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -732,4 +743,56 @@ main .contents-about .frame .frame-content .image .img2-about {
     height: 100%;
     border-radius: 15px 25px 25px 15px;
 }
+
+
+
+main .link_buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 150px;
+    margin: 0 60px;
+
+}
+
+
+main .link_buttons a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    background: blue;
+    margin: 0 20px;
+    padding: 0;
+    width: 350px;
+    height: 50px;
+    box-shadow: -15px 20px 20px 5px rgba(0, 0, 0, 0.45);
+    background: transparent;
+    border-radius: 55px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1.5px solid rgba(255, 255, 255, .2);
+    border-right: 1.5px solid rgba(255, 255, 255, .2);
+    border-bottom: transparent;
+    border-left: transparent;
+    backdrop-filter: blur(25px);
+    transition: 0.3s;
+
+}
+
+main .link_buttons a:hover {
+    text-shadow: 0 0 18px #53be48;
+    box-shadow: inset 0 0 40px #53be48, -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px #53be48;
+    border: 1.5px solid #9ed498;
+    color: #cfe8cc;
+    font-size: 18px;
+}
+
+
+
+
 
