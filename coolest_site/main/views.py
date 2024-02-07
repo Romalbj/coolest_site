@@ -10,3 +10,6 @@ def about(request):
 def works(request):
     return render(request, 'main/works.html')
 
+def beauty(request):
+    return render(request, 'main/beauty.html')
+
