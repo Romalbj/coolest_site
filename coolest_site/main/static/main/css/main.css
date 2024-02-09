@@ -43,10 +43,12 @@ main {
     box-shadow: 2px 20px 20px 5px rgba(0, 0, 0, 0.45), inset 0 0 30px  rgba(255, 255, 255, .2);
     padding: 6px 14px;
     transition: .5s;
+    z-index: 10;
 }
 
 .sidebar.active {
     width: 215px;
+    z-index: 10;
 }
 
 
@@ -836,5 +838,95 @@ main .link_buttons a:hover {
 
 
 
+main .wrapper {
+    position: relative;
+}
 
+main .wrapper .earth,
+main .wrapper .bcg,
+main .wrapper .sea,
+main .wrapper .bridge {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+
+main .wrapper .earth .earth_img,
+main .wrapper .bcg .bcg_img,
+main .wrapper .sea .sea_img,
+main .wrapper .bridge .bridge_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -10;
+  /*  -webkit-filter: blur(2px);  */
+}
+
+main .wrapper .earth ,
+main .wrapper .bcg ,
+main .wrapper .sea ,
+main .wrapper .bridge  {
+
+    box-shadow: -15px 20px 20px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px  rgba(255, 255, 255, .2);
+    border: blur(2px);
+}
+
+
+
+
+main .wrapper .text1 {
+    position: absolute;
+    top: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main .wrapper .text2 {
+    position: absolute;
+    top: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main .wrapper .text3 {
+    position: absolute;
+    top: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main .wrapper .text4 {
+    position: absolute;
+    top: 10;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+main .wrapper  p {
+    width: 100%;
+    position: sticky;
+    top: 30vh;
+    left: 50;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+}
 
