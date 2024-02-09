@@ -851,8 +851,8 @@ main .wrapper .bridge {
     margin: 0;
     padding: 0;
     position: relative;
+    box-shadow:  0px 10px 0px 50px black;
 }
-
 
 
 
@@ -868,19 +868,10 @@ main .wrapper .bridge .bridge_img {
   /*  -webkit-filter: blur(2px);  */
 }
 
-main .wrapper .earth,
-main .wrapper .bcg,
-main .wrapper .sea,
-main .wrapper .bridge {
-    box-shadow:  0px 10px 0px 50px black;
-
-}
-
 
 
 main .wrapper .text1 {
     position: absolute;
-    top: 10;
     left: 10%;
     height: 100%;
     width: 90%;
@@ -893,7 +884,6 @@ main .wrapper .text1 {
 
 main .wrapper .text2 {
     position: absolute;
-    top: 10;
     z-index: -10;
     height: 100%;
     width: 90%;
@@ -906,7 +896,6 @@ main .wrapper .text2 {
 
 main .wrapper .text3 {
     position: absolute;
-    top: 10;
     left: 10%;
     height: 100%;
     width: 90%;
@@ -919,7 +908,6 @@ main .wrapper .text3 {
 
 main .wrapper .text4 {
     position: absolute;
-    top: 10;
     z-index: -10;
     height: 100%;
     width: 90%;
