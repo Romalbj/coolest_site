@@ -869,13 +869,11 @@ main .wrapper .bridge .bridge_img {
   /*  -webkit-filter: blur(2px);  */
 }
 
-main .wrapper .earth ,
-main .wrapper .bcg ,
-main .wrapper .sea ,
-main .wrapper .bridge  {
-
-    box-shadow: -15px 20px 20px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px  rgba(255, 255, 255, .2);
-    border: blur(2px);
+main .wrapper .earth,
+main .wrapper .bcg,
+main .wrapper .sea,
+main .wrapper .bridge {
+    box-shadow:  0px 10px 0px 50px black;
 }
 
 
