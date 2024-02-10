@@ -14,6 +14,7 @@
     --h2-color: #e0e7e7;
     --text-color: rgba(255, 255, 255, 0.7);
     --border-glow-color: #9ed498;
+    --card-glow: #61ba57;
 }
 
 
@@ -306,7 +307,7 @@ main .contents .block3:hover span {
 main .contents .block3 {transition: 0.4s;}
 
 main .contents .block3:hover {
-    box-shadow: inset 0 0 70px  #61ba57, -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 42px #61ba57;
+    box-shadow: inset 0 0 70px  var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 42px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
 }
 
@@ -399,7 +400,7 @@ main .container .card .content h3 {
     transition: 0.4s;
 }
 main .container .card:hover {
-    box-shadow: inset 0 0 70px  #61ba57, -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 42px #61ba57;
+    box-shadow: inset 0 0 70px  var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 42px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
 }
 
@@ -826,7 +827,7 @@ main .link_buttons a {
 
 main .link_buttons a:hover {
     text-shadow: 0 0 18px #53be48;
-    box-shadow: inset 0 0 40px #53be48, -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px #53be48;
+    box-shadow: inset 0 0 40px var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
     color: #cfe8cc;
     font-size: 18px;
