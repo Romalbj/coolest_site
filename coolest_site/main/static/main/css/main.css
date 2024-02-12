@@ -907,7 +907,7 @@ main .wrapper .back .back_img {
 
 
 main .wrapper .text0 {
-   position: absolute;
+    position: absolute;
     left: 10%;
     height: 100%;
     width: 90%;
@@ -967,8 +967,25 @@ main .wrapper .text3 {
 }
 
 
-main .wrapper  .p0, .p2, .p4 {
-    width: 50%;
+main .wrapper  .p0 {
+    width: 60%;
+    height: 50%;
+    position: sticky;
+    top: 0;
+    left: 50;
+    color: white;
+    font-size: 45px;
+    text-align: right;
+    z-index: 100;
+    margin: 0px;
+    color: var(--text-color);
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+main .wrapper .p2, .p4 {
+    width: 60%;
     height: 50%;
     position: sticky;
     top: 0;
@@ -982,9 +999,6 @@ main .wrapper  .p0, .p2, .p4 {
     padding-right: 100px;
     display: flex;
     align-items: center;
-
-   /* backdrop-filter: blur(25px);  */
-
 }
 
 main .wrapper  .p1, .p3 {
