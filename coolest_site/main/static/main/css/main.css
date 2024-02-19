@@ -569,7 +569,7 @@ main .container .card:hover .img1 {
     color: #fff;
     font-size: 21px;
     display: grid;
-    grid-template-columns: 430px 430px;
+    grid-template-columns: 50% 50%;
     line-height: 1px;
     align-items: center;
     justify-content: center;
