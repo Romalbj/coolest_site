@@ -322,6 +322,8 @@ main .contents .block1 .block_header, main .contents .block2 .block_header {
 
 
 main .container {
+    width: 100vw;
+    height: 70vh;
     margin-top: 2vh;
     margin-left: 20vh;
   /*  margin-bottom: 8vh;  */
@@ -335,8 +337,8 @@ main .container {
 
 main .container .card {
     position: relative;
-    width: 350px;
-    height: 530px;
+    width: 27%;
+    height: 100%;
     margin: 20px;
     box-shadow: -15px 20px 20px 5px rgba(0, 0, 0, 0.45), inset 0 0 40px  rgba(255, 255, 255, .2);
     background: transparent;
@@ -356,7 +358,7 @@ main .container .card {
 
 main .container .card .content {
     color: #d3e8d0;
-    font-size: 18px;
+    font-size: 1.15em;
     padding: 0 50px;
 }
 
@@ -386,7 +388,7 @@ main .container .card1:hover ~ .link_buttons .button1 {
     box-shadow: inset 0 0 40px var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
     color: var(--border-glow-color);
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 main .container .card2:hover ~ .link_buttons .button2 {
@@ -394,7 +396,7 @@ main .container .card2:hover ~ .link_buttons .button2 {
     box-shadow: inset 0 0 40px var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
     color: var(--border-glow-color);
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 main .container .card3:hover ~ .link_buttons .button3 {
@@ -402,7 +404,7 @@ main .container .card3:hover ~ .link_buttons .button3 {
     box-shadow: inset 0 0 40px var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
     color: var(--border-glow-color);
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 
@@ -410,7 +412,7 @@ main .container .card3:hover ~ .link_buttons .button3 {
 main .container .card .content h3 {
     text-align: center;
     position: absolute;
-    font-size: 24px;
+    font-size: 1.35em;
     top: 35px;
     right: 40px;
     padding-bottom: 0;
@@ -447,7 +449,7 @@ main .container .card:hover {
 
 main .container .card .content p {
     font-weight: 500;
-    width: 277px;
+    width: 80%;
     position: absolute;
     color: var(--text-color);
     top: 100px;
@@ -567,10 +569,9 @@ main .container .card:hover .img1 {
     padding-top: 70px;
     background-color: black;
     color: #fff;
-    font-size: 21px;
+    font-size: 1.4em;
     display: grid;
     grid-template-columns: 50% 50%;
-    line-height: 1px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -669,21 +670,21 @@ main .container .card:hover .img1 {
     width: 28vh;
     height: 30vh;
     opacity: 1;
-    transform: translateX(-100px);
+    transform: translate(-7vw, 2vh);
 }
 
 .footerContainer .icons .icon1:hover img {
     width: 23vh;
     height: 25vh;
     opacity: 1;
-    transform: translate(-100px, -30px);
+    transform: translate(-7vw, -2vh);
 }
 
 .footerContainer .icons .icon4:hover img {
     width: 28vh;
     height: 30vh;
     opacity: 1;
-    transform: translateX(100px);
+    transform: translate(7vw, 2vh);
 }
 
 
@@ -833,7 +834,7 @@ main .link_buttons {
     display: flex;
     align-items: center;
     justify-content: right;
-    height: 150px;
+    height: 20%;
     margin: 0;
     padding: 0 60px;
 }
@@ -845,8 +846,8 @@ main .link_buttons a {
     background: blue;
     margin: 0 20px;
     padding: 0;
-    width: 350px;
-    height: 50px;
+    width: 30%;
+    height: 50%;
     box-shadow: -15px 20px 20px 5px rgba(0, 0, 0, 0.45);
     background: transparent;
     border-radius: 55px;
@@ -860,7 +861,7 @@ main .link_buttons a {
     border-left: transparent;
     backdrop-filter: blur(25px);
     transition: 0.3s;
-
+    font-size: 1.2em;
 }
 
 main .link_buttons a:hover {
@@ -868,7 +869,7 @@ main .link_buttons a:hover {
     box-shadow: inset 0 0 40px var(--card-glow), -15px 20px 20px 5px rgba(0, 0, 0, 0.35),  0 0 40px var(--card-glow);
     border: 1.5px solid var(--border-glow-color);
     color: var(--border-glow-color);
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 
