@@ -86,6 +86,21 @@ main {
 
 .sidebar .logo-menu .logo .logo-img{opacity:0;}
 
+.sidebar .logo-img1 {
+    margin-top: 2vh;
+    width: 10vw;
+    height: auto;
+    opacity: 0;
+    filter: blur(10px);
+    transition: .4s;
+}
+
+.sidebar.active .logo-img1 {
+    filter: blur(0);
+    opacity: 1;
+
+}
+
 
 .sidebar .logo-menu .toggle-btn {
     position: absolute;
@@ -573,27 +588,29 @@ main .container .card:hover .img1 {
     color: #fff;
     font-size: 1.4em;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.footerContainer .icons .icon {
-    padding: 0;
-    margin: -12px 10px;
-}
+
 
 .footerContainer .icons .icon3, .footerContainer .icons .icon4 {
-    margin: 0;
+    margin-down: 0;
     padding: 0;
-    height: 45px;
+    height: 35px;
     display: flex;
     align-items: flex-end;
 }
 
 .footerContainer .icons .icon1, .footerContainer .icons .icon2 {
+    height: 35px;
+    margin: 0;
+    padding: 0;
     height: 45px;
+    display: flex;
+    align-items: flex-start;
 }
 
 
@@ -693,7 +710,7 @@ main .container .card:hover .img1 {
 .footerContainer .foot-bottom {
     color: #fff;
     font-size: 13px;
-    margin-top: 9vh;
+    margin-top: 8vh;
     display: flex;
     align-items: flex-end;
     justify-content: left;
