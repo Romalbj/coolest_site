@@ -19,6 +19,7 @@
     --h2-color: #e0e7e7;
     --text-color: rgba(255, 255, 255, 0.7);
     --border-glow-color: #b7e8e8;
+    --border-glow-color: #b7e8e8;
     --card-glow: #0ee8e8;
 }
 
@@ -912,6 +913,7 @@ main .wrapper .text0 {
     position: absolute;
     left: 10%;
     height: 100%;
+    z-index: -10;
     width: 90%;
     display: flex;
     align-items: center;
