@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  django:
+    container_name: my_site
+    build:
+      context: ./coolest_site
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./coolest_site:/usr/src/app/
+    ports:
+      - 8001:8000
+    environment:
+      - DEBUG=1
+      - SECRET_KEY='django-insecure-tp57gpts+3racz8$&7%-^kgss6$4i&ro*7+pdve09xtvw9iz=d'
