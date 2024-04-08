@@ -3,12 +3,13 @@ version: '3.8'
 services:
 
   django:
-    container_name: my_site
+    container_name: my_site2
     build:
       context: ./coolest_site
-    command: python manage.py runserver 0.0.0.0:8000
-    volumes:
-      - ./coolest_site:/usr/src/app/
+    command: python manage.py runserver 0.0.0.0:8000 && 
+             python manage.py collectstatic
+#    volumes:
+#      - ./coolest_site:/usr/src/app/
     ports:
       - 8001:8000
     environment:
